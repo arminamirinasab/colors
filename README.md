@@ -23,3 +23,43 @@
 | `--color-link-bg-hover` | ![#E8E8E8](https://placehold.co/15x15/E8E8E8/E8E8E8.png) `#E8E8E8` | ![#2D2D2D](https://placehold.co/15x15/2D2D2D/2D2D2D.png) `#2D2D2D` |
 | `--color-navbar-bg-default` | ![#F3F3F3](https://placehold.co/15x15/F3F3F3/F3F3F3.png) `#F3F3F3` | ![#202020](https://placehold.co/15x15/202020/202020.png) `#202020` |
 | `--color-text-default` | ![#000000](https://placehold.co/15x15/000000/000000.png) `#000000` | ![#0078d7](https://placehold.co/15x15/eeeeee/eeeeee.png) `#FFFFFF` |
+
+## CSS Code
+<pre>
+  :root {
+  --PrimaryColor: #0078d7;
+  --PrimaryColorLight: #47aeff;
+  --color-primary-adaptive: #0078d7;
+  --color-primary-adaptive-light: var(--PrimaryColorLight);
+  --color-scheme-absolute-light: #ffffff;
+  --color-scheme-absolute-dark: #000000;
+  --color-danger-default-light: #C50500;
+  --color-danger-default-dark: #FF99A3;
+  --color-success-default-light: #2C8B2C;
+  --color-success-default-dark: #6ACB5D;
+  --color-background-default-light: #ffffff;
+  --color-background-default-dark: #111111;
+  --color-button-default-light: #e9e9e9;
+  --color-button-default-dark: #484848;
+  --color-button-hover-light: #666666;
+  --color-button-hover-dark: #999999;
+  --color-day-primary-night-grey-light: #0078d7;
+  --color-day-primary-night-grey-dark: #403E41;
+  --color-day-primary-night-white-light: #0078d7;
+  --color-day-primary-night-white-dark: #FFFFFF;
+  --color-foreground-default-light: #f03c15;
+  --color-foreground-default-dark: #2B2B2B;
+  --color-grey-light-light: #EEEEEE;
+  --color-grey-light-dark: #444444;
+  --color-grey-light-alpha-light: #EEEEEED1;
+  --color-grey-light-alpha-dark: #44444477;
+  --color-link-bg-active-light: #D8D8D8;
+  --color-link-bg-active-dark: #262626;
+  --color-link-bg-hover-light: #E8E8E8;
+  --color-link-bg-hover-dark: #2D2D2D;
+  --color-navbar-bg-default-light: #F3F3F3;
+  --color-navbar-bg-default-dark: #202020;
+  --color-text-default-light: #000000;
+  --color-text-default-dark: #0078d7;
+}
+</pre>
